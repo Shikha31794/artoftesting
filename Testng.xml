@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Artoftesting">
+
+	<listeners>
+		<listener class-name="artoftesting.testUtilities.Reporting" />
+	</listeners>
+
+
+	<test name="Demo Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="artoftesting.testCases.TC_ArtDemo" />
+			<!--  <class name="com.inetbanking.testCases.TC_LoginDDT_002" />-->
+			<!--<class name="com.inetbanking.testCases.TC_AddCustomerTest_003" />-->
+
+		</classes>
+
+	</test>
+
+</suite>

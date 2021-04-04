@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6315" started-at="2021-03-31T12:52:27Z" finished-at="2021-03-31T12:52:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6315" started-at="2021-03-31T12:52:27Z" finished-at="2021-03-31T12:52:33Z">
+      <class name="artoftesting.testCases.TC_ArtDemo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:artoftesting.testCases.TC_ArtDemo@548e7350]" name="setUp" is-config="true" duration-ms="2244" started-at="2021-03-31T12:52:27Z" finished-at="2021-03-31T12:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Demo()[pri:0, instance:artoftesting.testCases.TC_ArtDemo@548e7350]" name="Demo" duration-ms="2881" started-at="2021-03-31T12:52:29Z" finished-at="2021-03-31T12:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:artoftesting.testCases.TC_ArtDemo@548e7350]" name="screenShot" is-config="true" duration-ms="3" started-at="2021-03-31T12:52:32Z" finished-at="2021-03-31T12:52:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Demo status=SUCCESS method=TC_ArtDemo.Demo()[pri:0, instance:artoftesting.testCases.TC_ArtDemo@548e7350] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:artoftesting.testCases.TC_ArtDemo@548e7350]" name="teardown" is-config="true" duration-ms="1161" started-at="2021-03-31T12:52:32Z" finished-at="2021-03-31T12:52:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- artoftesting.testCases.TC_ArtDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
